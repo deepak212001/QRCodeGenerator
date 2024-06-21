@@ -1,0 +1,21 @@
+/* src/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #fff;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+ 
