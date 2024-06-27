@@ -4,12 +4,17 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 30px;
-    background-color: #fff;
+    background-color: #e2d8ff,#393939;
+    animation: shadow 5s infinite ;
+    box-shadow: 10px 2px 20px rgba(255, 255, 255, 0.5);
   }
+  @keyframes shadow { 
+    50% {box-shadow: 10px 2px 20px rgba(255, 255, 255, 0.0);}
+}
   
   .logo {
     text-decoration: none;
-    color: blue;
+    color: rgb(152, 152, 233);
     font-size: 20px;
     justify-items: center;
     justify-content: center;
