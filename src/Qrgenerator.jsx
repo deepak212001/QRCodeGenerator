@@ -7,7 +7,7 @@ function Qrgenerator() {
 
 	const GenerateQRCode = () => {
 		QRCode.toDataURL(url, {
-			width: 800,
+			width: 1000,
 			margin: 2,
 			color: {
 				dark: '#335383FF',
