@@ -16,6 +16,7 @@
         color: #fff;
         text-decoration: none;
         margin: 0;
+        padding: 0 5px;
     }
 
     .foot {
@@ -40,6 +41,7 @@
     .acc{
         display: flex;
         justify-content: space-around;
+        margin: 0;
     }
     #mad{
         padding: 8px 3px;
