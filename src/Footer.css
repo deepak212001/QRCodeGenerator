@@ -33,13 +33,13 @@
         width: 25px;
         height: 25px;
         color: white;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 
     .acc{
         display: flex;
         justify-content: space-around;
-        padding: 30px 30px;
+        padding: 0px 3px;
     }
     #mad{
         padding: 8px 3px;
