@@ -15,7 +15,7 @@
     footer a {
         color: #fff;
         text-decoration: none;
-        padding: 0 5px;
+        margin: 0;
     }
 
     .foot {
@@ -34,12 +34,12 @@
         width: 25px;
         height: 25px;
         color: white;
+        margin: 0;
     }
 
     .acc{
         display: flex;
         justify-content: space-around;
-        padding: 0px 3px;
     }
     #mad{
         padding: 8px 3px;
