@@ -24,17 +24,24 @@ function Qrgenerator() {
 	return (
 		<div className="app">
 			<h1>Create a custom QR Code in seconds!</h1>
-			<input 
+			<input
 				type="text"
 				placeholder="e.g. https://google.com"
 				value={url}
-				onChange={e => setUrl(e.target.value)} />
-			<button onClick={GenerateQRCode}>Generate</button>
+				onChange={e => setUrl(e.target.value)} 
+				onKeyDown={(e) => {
+					if (e.key === "Enter")
+						GenerateQRCode();
+				}} />
+			<button onClick={GenerateQRCode} >Generate</button>
 			{qr && <>
 				<img src={qr} />
-				<a href={qr} download="qrcode.png">Download</a>
+				<button id="but">
+					<a href={qr} download="qrcode.png" variant="outline-primary">Download</a>
+				</button>
+				
 			</>}
-             
+
 		</div>
 
 	)
