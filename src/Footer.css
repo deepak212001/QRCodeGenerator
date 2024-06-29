@@ -39,7 +39,7 @@
     .acc{
         display: flex;
         justify-content: space-around;
-        padding: 0px 3px;
+        padding: 8px 3px;
     }
     #mad{
         padding: 8px 3px;
