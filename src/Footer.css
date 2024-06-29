@@ -38,6 +38,7 @@
 
     .acc{
         display: flex;
+        justify-content: space-around;
         padding: 0px 3px;
     }
     #mad{
